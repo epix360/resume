@@ -1,87 +1,117 @@
     body {
-    font-family: 'Raleway', sans-serif;
-    background-color:black
+        font-family: 'Raleway', sans-serif;
+        background-color: black
     }
+    
     .body-content {
-    background-color:white;
+        background-color: white;
     }
     
     .body-content img {
-        margin-top:25px;
+        margin-top: 25px;
     }
     
     .vertical-align {
-      display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-    align-items: center;
-}
-
-.top-banner, footer {
-    color:white;
-}
-
-.top-banner p {
-    padding:0;
-    margin:0;
-}
-
-.top-banner a {
-   color:#7cd9ff; 
-}
-
-.top-banner address {
-    padding:0;
-    margin:0;
-}
-
-.hero {
-    background-image:url(../images/profilePic.jpg);
-	background-repeat: no-repeat;
-	background-size: 350px auto;
-	background-position:center;
-	padding-top: 100px;
-	padding-bottom: 100px;
-    color:#7cd9ff;
-    height:350px;
-}
-
-.text-muted {
-    color:silver;
-}
-
-.header-text {
-    text-shadow: 2px 2px 8px black;
-    color:#7cd9ff;
-    font-family: 'Raleway', sans-serif;
-    font-weight:100;
-    font-size:3rem;
-    padding-bottom:30px;
-    padding-top:30px;
-}
-.header-text h2 {
-    font-size:4rem;
-}
-
-.top-banner address {
-    margin-top:125px;
-    margin-left:50px;
-}
-
-address ul {
-    padding-top:10px;
-}
-
-@media screen and (max-width:786px) {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+    }
+    
+    .top-banner,
+    footer {
+        color: white;
+    }
+    
+    .top-banner p {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .top-banner a {
+        color: #7cd9ff;
+    }
+    
     .top-banner address {
-        margin-top:20px;
-        margin-left:0;
-        text-align:center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .hero {
+        background-image: url(../images/profilePic.jpg);
+        background-repeat: no-repeat;
+        background-size: 350px auto;
+        background-position: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        color: #7cd9ff;
+        height: 350px;
+    }
+    
+    .text-muted {
+        color: silver;
     }
     
     .header-text {
-        padding-top:0;
+        text-shadow: 2px 2px 8px black;
+        color: #7cd9ff;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 100;
+        font-size: 3rem;
+        padding-bottom: 30px;
+        padding-top: 30px;
     }
+    
+    .header-text h2 {
+        font-size: 4rem;
+    }
+    
+    .top-banner address {
+        margin-top: 125px;
+        margin-left: 50px;
+    }
+    
+    address ul {
+        padding-top: 10px;
+    }
+    
+    .skills-interest-section {
+        margin: 0;
+        padding: 0;
+        background-color: silver;
+    }
+    
+    .skills-interest-section h3 {
+        margin: 0;
+        padding: 0;
+        background-color: #7cd9ff;
+    }
+    
+    table {
+        margin:20px;
+    }
+    
+    table th {
+        font-size: 2rem;
+    }
+    
+    .title-row {
+        border-bottom:thin solid silver;
+    }
+    
+    .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
+    border: none;
 }
+    
+    @media screen and (max-width:786px) {
+        .top-banner address {
+            margin-top: 20px;
+            margin-left: 0;
+            text-align: center;
+        }
+        .header-text {
+            padding-top: 0;
+        }
+    }
