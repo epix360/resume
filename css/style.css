@@ -6,6 +6,10 @@
     background-color:white;
     }
     
+    .body-content img {
+        margin-top:25px;
+    }
+    
     .vertical-align {
       display: -webkit-box;
   display: -moz-box;
