@@ -5,10 +5,15 @@
     
     .body-content {
         background-color: white;
+        padding-bottom:75px;
     }
     
     .body-content img {
         margin-top: 25px;
+    }
+
+    .other-color {
+        color: #7cd9ff;
     }
     
     .vertical-align {
@@ -66,6 +71,73 @@
     .header-text h2 {
         font-size: 4rem;
     }
+
+    .experience img {
+        margin-left: -15px;
+    }
+
+    .education img {
+        margin-left: -15px;
+    }
+
+    .first {
+        padding-top:10px;
+        -ms-animation-duration: 500ms;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+    }
+
+    .second {
+        padding-left:10px;
+        margin-top: -5px;
+        -ms-animation-duration: 500ms;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-delay: 250ms;
+        -webkit-animation-delay: 250ms;
+        -moz-animation-delay: 250ms;
+    }
+
+    .third {
+        -ms-animation-duration: 500ms;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-delay: 500ms;
+        -webkit-animation-delay: 500ms;
+        -moz-animation-delay: 500ms;
+    }
+
+    .fourth {
+        -ms-animation-duration: 500ms;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-delay: 750ms;
+        -webkit-animation-delay: 750ms;
+        -moz-animation-delay: 750ms;
+    }
+
+    .fifth {
+        -ms-animation-duration: 500ms;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-delay: 1s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+    }
+
+    .entry {
+        background:black;
+        color:white;
+        height:200px;
+    }
+
+    .social-links a {
+        color:white;
+    }
+
+     .social-links a:hover {
+        color: #7cd9ff;
+    }
     
     .top-banner address {
         margin-top: 125px;
@@ -75,47 +147,35 @@
     address ul {
         padding-top: 10px;
     }
-    
-    .skills-interest-section {
-        margin: 0;
-        padding: 0;
-        background-color: silver;
-    }
-    
-    .skills-interest-section h3 {
-        margin: 0;
-        padding: 0;
-        background-color: #7cd9ff;
-    }
-    
-    table {
-        margin:20px;
-        width:auto !important;
-    }
-    
-    table th {
-        font-size: 2rem;
-    }
-    
-  .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
-    border: none;
-}
-    td {
-        background-color:#7cd9ff;
-        border-bottom:1px solid white !important;
-        border-radius:10px;
 
+    .skills {
+        padding:30px;
+       	text-align:center;
     }
-
-    td:before {
-       font-family:"Glyphicons Halflings";
-       content: "\e084 \00a0 "; 
-    }
-    
-
 
 footer {
     padding: 10px 0;
+}
+
+.contact-submit {
+    float:right;
+}
+
+.formy-form {
+ 
+    margin-left:80px;
+}
+
+.ui-helper-hidden-accessible {
+    display:none;
+}
+
+.fa-500px {
+    color:white;
+}
+
+.fa-500px:hover {
+    color:#7cd9ff;
 }
     
     @media screen and (max-width:786px) {
