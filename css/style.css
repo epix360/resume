@@ -176,12 +176,13 @@
         display: none;
     }
     
-    .fa-500px {
+    footer a {
         color: #7cd9ff;
     }
-    
-    .fa-500px:hover {
+
+     footer a:hover {
         color: white;
+        text-decoration:none;
     }
     
     .fa-hand-o-right {
