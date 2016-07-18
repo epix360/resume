@@ -177,11 +177,11 @@
     }
     
     .fa-500px {
-        color: white;
+        color: #7cd9ff;
     }
     
     .fa-500px:hover {
-        color: #7cd9ff;
+        color: white;
     }
     
     .fa-hand-o-right {
@@ -222,6 +222,11 @@
     }
     .contact-submit:hover, .contact-submit:active {
         background-color:white;
+    }
+
+    .skills img {
+        position:relative;
+        z-index:1;
     }
     
     @media screen and (max-width:768px) {
