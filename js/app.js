@@ -3,6 +3,7 @@
     //Set descriptions to hidden on page load
     $(document).ready(function() {
         $(".entry").hide();
+        $(".emp-logo").on('click').animationClick();
     });
     
     //Toggle content
