@@ -2,11 +2,7 @@
 
     //Set descriptions to hidden on page load
     $(document).ready(function() {
-        $("#scentsy-desc").hide();
-        $("#bestbuy-desc").hide();
-        $("#observepoint-desc").hide();
-        $("#byui-desc").hide();
-        $("#bcw-desc").hide();
+        $(".entry").hide();
     });
     
     //Toggle content
