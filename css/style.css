@@ -226,6 +226,17 @@
         position:relative;
         z-index:1;
     }
+
+    .rotate {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        transition:all 0.4s ease-in-out; 
+    }
+
+
     
     @media screen and (max-width:768px) {
         
@@ -255,14 +266,16 @@
             padding-bottom: 20px;
         }
 
-        .exp-m li {
+        .exp-m h3{
             cursor:pointer;
+            background-color: #7cd9ff;
+            color:black; 
+            padding:9px 30px;
+            margin:0 0 1px 0;
         }
 
         .exp-m li h3 {
             width:100%;
-            border-bottom:thin white solid;
-            padding-bottom:4px;
         }
 
         .skills img {
@@ -271,6 +284,7 @@
 
         .fa-caret-right {
             color:white;
+            transition:all 0.4s ease-in-out; 
         }
 
          .formy-form {
@@ -291,6 +305,18 @@
     .contact-form {
             padding-bottom: 0;
         }
+
+       
+    }
+
+    .fa-caret-right {
+        color:black;
+        float:right;
+    }
+
+    .fa-caret-down {
+        color:black;
+        float:right;
     }
 
     @media screen and (max-width:414px) {
@@ -307,3 +333,5 @@
         height:250px;
     }
     }
+
+   
