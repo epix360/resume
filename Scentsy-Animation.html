@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Scentsy Bootstrap Carousel Animation</title>
+    <!-- Bootstrap -->
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet'>
+    <!-- Font Awesome Glyphicons -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js'></script>
+<script src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js'></script>
+<![endif]-->
+</head>
+
+<body>
+    <div class='container'>
+        <div class="myCarousel carousel slide carousel-fade">
+
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+                <div class="item active" data-interval="500">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/1.jpg">
+                </div>
+                <div class="item" data-interval="2000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/2.jpg">
+                </div>
+                <div class="item" data-interval="4000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/3.jpg">
+                </div>
+                <div class="item" data-interval="500">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/4.jpg">
+                </div>
+                <div class="item" data-interval="1000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/5.jpg">
+                </div>
+                <div class="item" data-interval="1000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/6.jpg">
+                </div>
+                <div class="item" data-interval="1000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/7.jpg">
+                </div>
+                <div class="item" data-interval="1000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/8.jpg">
+                </div>
+                <div class="item" data-interval="1000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/9.jpg">
+                </div>
+                <div class="item" data-interval="1000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/10.jpg">
+                </div>
+                <div class="item" data-interval="3000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/11.jpg">
+                </div>
+                <div class="item" data-interval="3000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/12.jpg">
+                </div>
+                <div class="item" data-interval="3000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/13.jpg">
+                </div>
+                <div class="item" data-interval="500">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/14.jpg">
+                </div>
+                <div class="item" data-interval="2000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/15.jpg">
+                </div>
+                <div class="item" data-interval="4000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/16.jpg">
+                </div>
+                <div class="item" data-interval="4000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/17.jpg">
+                </div>
+                <div class="item" data-interval="4000">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/18.jpg">
+                </div>
+                <div class="item" data-interval="500">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/19.jpg">
+                </div>
+                <div class="item" data-interval="250">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/20.jpg">
+                </div>
+                <div class="item" data-interval="250">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/21.jpg">
+                </div>
+                <div class="item" data-interval="1500">
+                    <img src="https://imagelive.scentsy.com/cmsimages/images/Diffusers/22.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .carousel-fade .carousel-inner .active.left {
+            left: 0;
+            opacity: 0;
+            -webkit-transition: opacity ease 1s;
+            -moz-transition: opacity ease 1s;
+            -ms-transition: opacity ease 1s;
+            -o-transition: opacity ease 1s;
+            transition: opacity ease 1s;
+            z-index: 2;
+        }
+        
+        .carousel-fade .carousel-inner .next.left {
+            opacity: 1;
+            z-index: 1;
+        }
+        
+        .carousel-fade .carousel-inner .next,
+        .carousel-fade .carousel-inner .prev,
+        .carousel-fade .carousel-inner .active.left,
+        .carousel-fade .carousel-inner .active.right {
+            left: 0;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+    </style>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script>
+    (function() {
+var t;
+
+var start = $('.myCarousel').find('.active').attr('data-interval');
+t = setTimeout("$('.myCarousel').carousel({interval: 1000});", start - 1000);
+
+$('.myCarousel').on('slid.bs.carousel', function() {
+  clearTimeout(t);
+  var duration = $(this).find('.active').attr('data-interval');
+
+  $('.myCarousel').carousel('pause');
+  t = setTimeout("$('.myCarousel').carousel();", duration - 1000);
+})
+
+$('.carousel-control.right').on('click', function() {
+  clearTimeout(t);
+});
+
+$('.carousel-control.left').on('click', function() {
+  clearTimeout(t);
+});
+    })();
+
+    </script>
+</body>
+
+</html>
