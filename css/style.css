@@ -2,6 +2,10 @@
         font-family: 'Raleway', sans-serif;
         background-color: black
     }
+
+    .modal {
+        font-family: 'Raleway', sans-serif;
+    }
     
     .body-content {
         background-color: white;
@@ -9,6 +13,10 @@
     
     .body-content img {
         margin-top: 25px;
+    }
+    
+    .other-color {
+        color: #7cd9ff;
     }
     
     .vertical-align {
@@ -20,7 +28,8 @@
         align-items: center;
     }
     
-    .top-banner, footer {
+    .top-banner,
+    footer {
         color: white;
     }
     
@@ -38,15 +47,8 @@
         margin: 0;
     }
     
-    .hero {
-        background-image: url(../images/profilePic.jpg);
-        background-repeat: no-repeat;
-        background-size: 350px auto;
-        background-position: center;
-        padding-top: 100px;
-        padding-bottom: 100px;
-        color: #7cd9ff;
-        height: 350px;
+    .hero img {
+        width:100%;
     }
     
     .text-muted {
@@ -67,6 +69,76 @@
         font-size: 4rem;
     }
     
+    .experience img {
+        margin-left: -15px;
+    }
+    
+    .education img {
+        margin-left: -15px;
+    }
+    
+    .logos img {
+        cursor: pointer;
+    }
+    
+    .first {
+        padding-top: 10px;
+        -ms-animation-duration: 500ms;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+    }
+    
+    .second {
+        padding-left: 10px;
+        margin-top: -5px;
+        -ms-animation-duration: 500ms;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-delay: 125ms;
+        -webkit-animation-delay: 125ms;
+        -moz-animation-delay: 125ms;
+    }
+    
+    .third {
+        -ms-animation-duration: 500ms;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-delay: 250ms;
+        -webkit-animation-delay: 250ms;
+        -moz-animation-delay: 250ms;
+    }
+    
+    .fourth {
+        -ms-animation-duration: 500ms;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-delay: 500ms;
+        -webkit-animation-delay: 500ms;
+        -moz-animation-delay: 500ms;
+    }
+    
+    .fifth {
+        -ms-animation-duration: 500ms;
+        -webkit-animation-duration: 500ms;
+        -moz-animation-duration: 500ms;
+        -ms-animation-delay: 750ms;
+        -webkit-animation-delay: 750ms;
+        -moz-animation-delay: 750ms;
+    }
+    
+    .entry {
+        background: black;
+        color: white;
+    }
+    
+    .social-links a {
+        color: white;
+    }
+    
+    .social-links a:hover {
+        color: #7cd9ff;
+    }
+    
     .top-banner address {
         margin-top: 125px;
         margin-left: 50px;
@@ -76,49 +148,110 @@
         padding-top: 10px;
     }
     
-    .skills-interest-section {
-        margin: 0;
-        padding: 0;
-        background-color: silver;
+    .skills {
+        padding: 30px;
+        text-align: center;
     }
     
-    .skills-interest-section h3 {
-        margin: 0;
-        padding: 0;
-        background-color: #7cd9ff;
+    footer {
+        padding: 10px 0;
     }
     
-    table {
-        margin:20px;
-        width:auto !important;
+    .contact-submit {
+        float: right;
     }
     
-    table th {
-        font-size: 2rem;
+    .formy-form {
+        margin-left: 80px;
     }
     
-  .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
-    border: none;
-}
-    td {
+    .ui-helper-hidden-accessible {
+        display: none;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    footer a {
+        color: #7cd9ff;
+    }
+
+     footer a:hover {
+        color: white;
+        text-decoration:none;
+    }
+    
+    .fa-hand-o-right {
+        color: black;
+    }
+    
+    .fa-rotate-45 {
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+    
+    .fa-rotate-135 {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+    
+    .directions {
+        color: black;
+        text-align: center;
+        padding: 10px 0 10px 0;
+        -ms-animation-delay: 1400s;
+        -webkit-animation-delay: 1400ms;
+        -moz-animation-delay: 1400ms;
+    }
+
+    .mobile-only {
+        display:none;
+    }
+
+    .contact-submit {
         background-color:#7cd9ff;
-        border-bottom:1px solid white !important;
-        border-radius:10px;
-
+    }
+    .contact-submit:hover, .contact-submit:active {
+        background-color:white;
     }
 
-    td:before {
-       font-family:"Glyphicons Halflings";
-       content: "\e084 \00a0 "; 
+    .skills img {
+        position:relative;
+        z-index:1;
     }
-    
 
+    .rotate {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        transition:all 0.4s ease-in-out; 
+    }
 
-footer {
-    padding: 10px 0;
-}
-    
-    @media screen and (max-width:786px) {
+    @media screen and (max-width:768px) {
+        
+        .non-mobile {
+            display: none;
+        }
+        .mobile-only {
+            display:initial;
+        }
+        .mobile-only h2{
+            color:white;
+            margin-left:15px;
+        }
+
+        .mobile-only h3 {
+            color:#7cd9ff;
+        }
         .top-banner address {
             margin-top: 15px;
             margin-left: 0;
@@ -126,10 +259,78 @@ footer {
         }
         .header-text {
             padding-top: 0;
-            padding-bottom:6px;
+            padding-bottom: 6px;
         }
-        
         .contact-form {
-            padding-bottom:20px;
+            padding-bottom: 20px;
         }
+
+        .exp-m h3{
+            cursor:pointer;
+            background-color: #7cd9ff;
+            color:black; 
+            padding:9px 30px;
+            margin:0 0 1px 0;
+        }
+
+        .exp-m li h3 {
+            width:100%;
+        }
+
+        .skills img {
+            width:100%;
+        }
+
+        .fa-caret-right {
+            color:white;
+            transition:all 0.4s ease-in-out; 
+        }
+
+         .formy-form {
+        margin:0;
     }
+
+    .formy-form input, .formy-form textarea {
+        width:98%;
+    }
+
+.formy-form .btn  {
+        width:25%;
+        float:none;
+        display:block;
+        margin:0 auto;
+        margin-top:10px;
+    }
+    .contact-form {
+            padding-bottom: 0;
+        }
+
+       
+    }
+
+    .fa-caret-right {
+        color:black;
+        float:right;
+    }
+
+    .fa-caret-down {
+        color:black;
+        float:right;
+    }
+
+    @media screen and (max-width:414px) {
+        .hero {
+        background-size: 100% auto;
+        background-position: center;
+        padding:0;
+        margin:0;
+    }
+    }
+
+    @media screen and (max-width:320px) {
+        .hero {
+        height:250px;
+    }
+    }
+
+   
